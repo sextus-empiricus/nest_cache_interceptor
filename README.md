@@ -18,3 +18,4 @@ Use custom decorator do declare timeout for a.n. logic.
 
 ### 🪔Learning continuation in separate branches:
     -express-middlewares in nestjs - b:middlewares
+    -@nestjsx/crud - b:crud
