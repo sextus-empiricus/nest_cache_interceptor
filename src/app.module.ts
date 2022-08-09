@@ -6,6 +6,7 @@ import { CatModule } from './cat/cat.module';
 import { SetDummyModule } from './set-dummy/set-dummy.module';
 import { config } from '../config/config';
 import { CustomCacheModule } from './custom-cache/custom-cache.module';
+import { CronModule } from './cron/cron.module';
 
 const { host, port, database, password, username } = config.db;
 
@@ -26,6 +27,7 @@ const { host, port, database, password, username } = config.db;
       CatModule,
       SetDummyModule,
       CustomCacheModule,
+      CronModule,
    ],
    controllers: [AppController],
    providers: [AppService],
