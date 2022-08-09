@@ -20,3 +20,4 @@ Use custom decorator do declare timeout for a.n. logic.
     -express-middlewares in nestjs - b:middlewares
     -@nestjsx/crud - b:crud
     -@nestjs/schedule -b:cron
+    -email service - b:email
