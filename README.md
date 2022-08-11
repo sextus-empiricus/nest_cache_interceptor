@@ -21,3 +21,4 @@ Use custom decorator do declare timeout for a.n. logic.
     -@nestjsx/crud - b:crud
     -@nestjs/schedule -b:cron
     -file service - b:file
+    -auth -b:auth
