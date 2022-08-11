@@ -1,4 +1,11 @@
-import { BaseEntity, Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
+import {
+   BaseEntity,
+   Column,
+   CreateDateColumn,
+   Entity,
+   PrimaryGeneratedColumn,
+   UpdateDateColumn,
+} from 'typeorm';
 
 @Entity()
 export class Cat extends BaseEntity {
@@ -24,6 +31,9 @@ export class Cat extends BaseEntity {
       default: 1,
    })
    level: number;
+
+   @Column({ default: null, nullable: true })
+   photoFn: string;
 
    @CreateDateColumn()
    createdAt: Date;
